@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".third">
+
+
+    <fragment
+        android:id="@+id/my_map2"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+       android:id="@+id/floatb"
+        android:layout_width="78dp"
+        android:layout_height="83dp"
+        android:layout_marginLeft="2in"
+        android:layout_marginTop="3.5in"
+        android:layout_marginRight="0.1in" />
+
+
+</FrameLayout>

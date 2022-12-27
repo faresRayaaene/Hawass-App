@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">master2Java</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="sign_up">Sign up </string>
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="open">open</string>
+    <string name="close">close</string>
+    <string name="cons">also spelled Qacentina[4] or Kasantina, is the capital of Constantine Province in northeastern Algeria. During Roman times it was called Cirta and was renamed "Constantina" in honor of emperor Constantine the Great. It was the capital of the French department of Constantine until 1962. Located somewhat inland, Constantine is about 80 kilometres (50 miles) from the Mediterranean coast, on the banks of the Rhumel River.</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

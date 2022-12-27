@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="350dp"
+    android:layout_gravity="center"
+    >
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="180dp"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:src="@mipmap/constantine"
+        android:layout_marginTop="40dp"/>
+    
+    <TextView
+       android:id="@+id/text_pop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Constantine"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:layout_below="@+id/image"
+        />
+
+    <TextView
+        android:id="@+id/text_pop2"
+        android:layout_width="match_parent"
+        android:layout_height="114dp"
+        android:layout_below="@+id/text_pop"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="7dp"
+        android:text="also spelled Kasantina, is the capital of Constantine Province in northeastern Algeria"
+        android:textSize="20dp" />
+
+
+</RelativeLayout>
+
