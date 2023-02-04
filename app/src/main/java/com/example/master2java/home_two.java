@@ -63,7 +63,9 @@ nav.setNavigationItemSelectedListener(new NavigationView.OnNavigationItemSelecte
             case R.id.menu_item :
                 fm.beginTransaction().replace(R.id.frameLayout , new tablayout() ).commit();
                 break;
-
+            case R.id.photo13 :
+                fm.beginTransaction().replace(R.id.frameLayout, new settings() ).commit() ;
+                 break ;
             case R.id.about :
                 fm.beginTransaction().replace(R.id.frameLayout , new second()).commit();
                 break ;

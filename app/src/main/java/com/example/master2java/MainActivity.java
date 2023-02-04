@@ -90,8 +90,7 @@ public class MainActivity extends AppCompatActivity  {
         fpsd.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
-                startActivity(new Intent(MainActivity.this , fpsd.class));
+                startActivity(new Intent(MainActivity.this , pic.class));
             }
         });
 

@@ -16,4 +16,6 @@
         android:textStyle="bold"
         android:text="hello_blank_fragment" />
 
+
+
 </FrameLayout>

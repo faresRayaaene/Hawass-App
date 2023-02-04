@@ -16,16 +16,19 @@
             android:background="#0F76C8"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:title="fares"
+            app:title="Welcome"
             app:layout_constraintTop_toTopOf="parent" />
 
-    <FrameLayout
+
+        <FrameLayout
     android:layout_width="match_parent"
     android:layout_height="match_parent"
         android:id="@+id/frameLayout"
     android:layout_below="@id/topAppbar">
 
-    </FrameLayout>
+
+
+        </FrameLayout>
 
     </RelativeLayout>
 
